@@ -214,7 +214,7 @@ export default function Home() {
                     Underfloor heating provides the most comfortable and uniform
                     level of warmth. It is also energy-efficient and
                     cost-effective. Underfloor heating systems are often more
-                    efficient than radiators because they don't rely on
+                    efficient than radiators because they don&apos;t rely on
                     convection currents to distribute heat.
                   </div>
                   <div className="self-stretch mt-8 py-2 max-md:max-w-full">

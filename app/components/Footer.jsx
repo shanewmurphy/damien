@@ -28,31 +28,41 @@ export default function Footer() {
                     info@relume.io
                   </div>
                   <div className="items-stretch flex w-[168px] max-w-full gap-3 mt-6 self-start max-md:justify-center">
-                    <img
-                      loading="lazy"
-                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/62b5d33a2d89b89f8168c6abdd1ceb4be12fef15495b6c241c5071acc2788d50?apiKey=052aa92796d54d509e3efd8cbd8b7989&"
-                      className="aspect-square object-contain object-center w-full overflow-hidden shrink-0 flex-1"
-                    />
-                    <img
-                      loading="lazy"
-                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/630c40069fe20220abe144e4c4b75b2ecee3febbf71da11c4b978a75bd4903f1?apiKey=052aa92796d54d509e3efd8cbd8b7989&"
-                      className="aspect-square object-contain object-center w-full overflow-hidden shrink-0 flex-1"
-                    />
-                    <img
-                      loading="lazy"
-                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/ea6109ee3f35fec59be9344cfb962411bff796cecdefd2d9aaa3f73a05d068ec?apiKey=052aa92796d54d509e3efd8cbd8b7989&"
-                      className="aspect-square object-contain object-center w-full overflow-hidden shrink-0 flex-1"
-                    />
-                    <img
-                      loading="lazy"
-                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/312514cf93a3b1e6090b35baf90a4795be130fb5e8a2167c582e389805f10388?apiKey=052aa92796d54d509e3efd8cbd8b7989&"
-                      className="aspect-square object-contain object-center w-full overflow-hidden shrink-0 flex-1"
-                    />
-                    <img
-                      loading="lazy"
-                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/6f24e978cab1ea4e2cee588ad7ba146bba658f6e712d9249dce300b244559721?apiKey=052aa92796d54d509e3efd8cbd8b7989&"
-                      className="aspect-square object-contain object-center w-full overflow-hidden shrink-0 flex-1"
-                    />
+                    <picture>
+                      <img
+                        loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/62b5d33a2d89b89f8168c6abdd1ceb4be12fef15495b6c241c5071acc2788d50?apiKey=052aa92796d54d509e3efd8cbd8b7989&"
+                        className="aspect-square object-contain object-center w-full overflow-hidden shrink-0 flex-1"
+                      />
+                    </picture>
+                    <picture>
+                      <img
+                        loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/630c40069fe20220abe144e4c4b75b2ecee3febbf71da11c4b978a75bd4903f1?apiKey=052aa92796d54d509e3efd8cbd8b7989&"
+                        className="aspect-square object-contain object-center w-full overflow-hidden shrink-0 flex-1"
+                      />
+                    </picture>
+                    <picture>
+                      <img
+                        loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/ea6109ee3f35fec59be9344cfb962411bff796cecdefd2d9aaa3f73a05d068ec?apiKey=052aa92796d54d509e3efd8cbd8b7989&"
+                        className="aspect-square object-contain object-center w-full overflow-hidden shrink-0 flex-1"
+                      />
+                    </picture>
+                    <picture>
+                      <img
+                        loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/312514cf93a3b1e6090b35baf90a4795be130fb5e8a2167c582e389805f10388?apiKey=052aa92796d54d509e3efd8cbd8b7989&"
+                        className="aspect-square object-contain object-center w-full overflow-hidden shrink-0 flex-1"
+                      />
+                    </picture>
+                    <picture>
+                      <img
+                        loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/6f24e978cab1ea4e2cee588ad7ba146bba658f6e712d9249dce300b244559721?apiKey=052aa92796d54d509e3efd8cbd8b7989&"
+                        className="aspect-square object-contain object-center w-full overflow-hidden shrink-0 flex-1"
+                      />
+                    </picture>
                   </div>
                 </div>
               </div>
