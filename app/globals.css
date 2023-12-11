@@ -18,6 +18,6 @@
     display: none !important;
   }
   .mobile-nav {
-    display: block !important;
+    display: flex !important;
   }
 }

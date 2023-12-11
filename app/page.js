@@ -11,7 +11,7 @@ export default function Home() {
           <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
             <div className="flex flex-col items-stretch w-6/12 max-md:w-full max-md:ml-0">
               <div className="self-stretch my-auto max-md:max-w-full max-md:text-4xl max-md:leading-[54px]">
-                <h1 className="text-black lg:text-5xl md:text-4xl sm:text-2xl font-bold ">
+                <h1 className="text-black text-4xl font-bold leading-10 max-md:max-w-full">
                   Revolutionary Underfloor Heating Installation Method
                 </h1>
               </div>
@@ -38,7 +38,7 @@ export default function Home() {
                 <div className="text-black text-base font-semibold leading-6 self-stretch whitespace-nowrap max-md:max-w-full">
                   Innovative
                 </div>
-                <div className="self-stretch text-black text-5xl font-bold leading-[58px] mt-4 max-md:max-w-full max-md:text-4xl max-md:leading-[54px]">
+                <div className="self-stretch text-black text-4xl font-bold leading-10 max-md:max-w-full">
                   Transforms Any Floor into a Underfloor Heating System
                 </div>
                 <div className="self-stretch text-black text-lg leading-7 mt-6 max-md:max-w-full">
