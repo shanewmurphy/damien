@@ -12,7 +12,8 @@ export default function Home() {
             <div className="flex flex-col items-stretch w-6/12 max-md:w-full max-md:ml-0">
               <div className="self-stretch my-auto max-md:max-w-full max-md:text-4xl max-md:leading-[54px]">
                 <h1 className="text-black text-4xl font-bold leading-10 max-md:max-w-full">
-                  Transforms Any Floor into a Underfloor Heating System
+                  Transforms Any Floor into a Underfloor Heating System without
+                  the need to remove or raise the existing screed
                 </h1>
               </div>
             </div>

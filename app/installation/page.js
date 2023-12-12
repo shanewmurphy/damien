@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function InstallationPage() {
   return (
     <div>
@@ -28,11 +29,13 @@ export default function InstallationPage() {
             <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
               <div className="flex flex-col items-stretch w-[33%] max-md:w-full max-md:ml-0">
                 <div className="items-center flex grow flex-col max-md:mt-10">
-                  <img
-                    loading="lazy"
-                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/400558788122a3316b26788ebf16a34456b9069a62ac56124e5eeb0c9375360f?apiKey=052aa92796d54d509e3efd8cbd8b7989&"
-                    className="aspect-square object-contain object-center w-12 overflow-hidden max-w-full"
-                  />
+                  <picture>
+                    <img
+                      loading="lazy"
+                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/400558788122a3316b26788ebf16a34456b9069a62ac56124e5eeb0c9375360f?apiKey=052aa92796d54d509e3efd8cbd8b7989&"
+                      className="aspect-square object-contain object-center w-12 overflow-hidden max-w-full"
+                    />
+                  </picture>
                   <div className="self-stretch text-black text-center text-2xl font-bold leading-9 mt-6">
                     Step 2: Create tightly routed grooves in the floor using the
                     Floorgrinder.
@@ -41,25 +44,18 @@ export default function InstallationPage() {
                     Step 3: Lay the underfloor heating pipes into the created
                     channels.
                   </div>
-                  <div className="justify-center items-stretch flex gap-2 mt-8">
-                    <div className="text-black text-base leading-6 grow whitespace-nowrap">
-                      Learn More
-                    </div>
-                    <img
-                      loading="lazy"
-                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/ecad60279098c14d85916191c1dcf1c55e6e8fc8be4dfb334767ae78d903903a?apiKey=052aa92796d54d509e3efd8cbd8b7989&"
-                      className="aspect-square object-contain object-center w-6 overflow-hidden shrink-0 max-w-full"
-                    />
-                  </div>
+                  <div className="justify-center items-stretch flex gap-2 mt-8"></div>
                 </div>
               </div>
               <div className="flex flex-col items-stretch w-[33%] ml-5 max-md:w-full max-md:ml-0">
                 <div className="items-center flex grow flex-col max-md:mt-10">
-                  <img
-                    loading="lazy"
-                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/fa6119d5f81204fe6d3516d96540d57df07aacd17aae3a163ee6969b8454b114?apiKey=052aa92796d54d509e3efd8cbd8b7989&"
-                    className="aspect-square object-contain object-center w-12 overflow-hidden max-w-full"
-                  />
+                  <picture>
+                    <img
+                      loading="lazy"
+                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/fa6119d5f81204fe6d3516d96540d57df07aacd17aae3a163ee6969b8454b114?apiKey=052aa92796d54d509e3efd8cbd8b7989&"
+                      className="aspect-square object-contain object-center w-12 overflow-hidden max-w-full"
+                    />
+                  </picture>
                   <div className="self-stretch text-black text-center text-2xl font-bold leading-9 mt-6">
                     Step 4: Connect the heating system to the primary heat
                     source.
@@ -67,16 +63,6 @@ export default function InstallationPage() {
                   <div className="self-stretch text-black text-center text-base leading-6 mt-6">
                     Step 5: Experience the warmth within minutes of
                     installation.
-                  </div>
-                  <div className="justify-center items-stretch flex gap-2 mt-8">
-                    <div className="text-black text-base leading-6 grow whitespace-nowrap">
-                      Learn More
-                    </div>
-                    <img
-                      loading="lazy"
-                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/676250fcf084faf6e5863b80c702283bf08b5aded44c1d1ddba93595bd0bfb20?apiKey=052aa92796d54d509e3efd8cbd8b7989&"
-                      className="aspect-square object-contain object-center w-6 overflow-hidden shrink-0 max-w-full"
-                    />
                   </div>
                 </div>
               </div>
@@ -96,18 +82,6 @@ export default function InstallationPage() {
                   <div className="self-stretch text-black text-center text-base leading-6 mt-6">
                     Step 7: Save on your gas bill with our low temperature
                     heating system.
-                  </div>
-                  <div className="justify-center items-stretch flex gap-2 mt-8">
-                    <div className="text-black text-base leading-6 grow whitespace-nowrap">
-                      Learn More
-                    </div>
-                    <picture>
-                      <img
-                        loading="lazy"
-                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/5aebd06354219904cb98bd73ee0a948e253d03e9ddc20da5f51baa4283cb64c3?apiKey=052aa92796d54d509e3efd8cbd8b7989&"
-                        className="aspect-square object-contain object-center w-6 overflow-hidden shrink-0 max-w-full"
-                      />
-                    </picture>
                   </div>
                 </div>
               </div>
