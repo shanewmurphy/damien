@@ -12,7 +12,7 @@ export default function Home() {
             <div className="flex flex-col items-stretch w-6/12 max-md:w-full max-md:ml-0">
               <div className="self-stretch my-auto max-md:max-w-full max-md:text-4xl max-md:leading-[54px]">
                 <h1 className="text-black text-4xl font-bold leading-10 max-md:max-w-full">
-                  Revolutionary Underfloor Heating Installation Method
+                  Transforms Any Floor into a Underfloor Heating System
                 </h1>
               </div>
             </div>
@@ -22,15 +22,16 @@ export default function Home() {
                   Experience the most comfortable and efficient warmth with our
                   certified retro-fit underfloor heating system. Our
                   floorgrinder creates 16mm channels for the heating pipes,
-                  providing a dust-free and bespoke solution that saves on
-                  energy bills.
+                  providing a dust-free and bespoke solution our system provides
+                  affordable, quick, and eco-friendly heating solutions that
+                  saves on energy bills.
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div className="w-11/12 mx-auto mb-52">
+      {/* <div className="w-11/12 mx-auto mb-52">
         <div className="mt-16 mb-10 max-md:max-w-full max-md:mr-1 max-md:mt-10">
           <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
             <div className="flex flex-col items-stretch w-6/12 max-md:w-full max-md:ml-0">
@@ -62,7 +63,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       <div className="w-11/12 mx-auto mb-52">
         <div className="mt-16 mb-10 max-md:max-w-full max-md:mr-1 max-md:mt-10">
           <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
@@ -112,6 +113,19 @@ export default function Home() {
                   </picture>
                   <div className="text-black text-base leading-6 self-stretch grow shrink basis-auto max-md:max-w-full">
                     Save on your gas bill while reducing your carbon footprint.
+                  </div>
+                </div>
+                <div className="items-center flex justify-between gap-4 mt-4 max-md:max-w-full max-md:flex-wrap">
+                  <picture>
+                    <img
+                      loading="lazy"
+                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/08d76387095f72fdab4301c05478c2dc2d391fc72dc6206070f9100240c26ed6?apiKey=052aa92796d54d509e3efd8cbd8b7989&"
+                      className="aspect-square object-contain object-center w-4 overflow-hidden shrink-0 max-w-full my-auto"
+                    />
+                  </picture>
+                  <div className="text-black text-base leading-6 self-stretch grow shrink basis-auto max-md:max-w-full">
+                    Our system can work with oil, gas or air to water heatpump
+                    heating systems.
                   </div>
                 </div>
               </div>
@@ -182,6 +196,73 @@ export default function Home() {
                         </div>
                       </div>
                     </div>
+                  </div>
+                </div>
+              </div>
+              <div className="flex flex-col items-stretch w-6/12 ml-5 max-md:w-full max-md:ml-0">
+                <picture>
+                  <img
+                    loading="lazy"
+                    srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/695e35fe9375ed813e9267c48b6e6e0ed2c5303c0a4eb46842040dcb8370ac1e?apiKey=052aa92796d54d509e3efd8cbd8b7989&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/695e35fe9375ed813e9267c48b6e6e0ed2c5303c0a4eb46842040dcb8370ac1e?apiKey=052aa92796d54d509e3efd8cbd8b7989&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/695e35fe9375ed813e9267c48b6e6e0ed2c5303c0a4eb46842040dcb8370ac1e?apiKey=052aa92796d54d509e3efd8cbd8b7989&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/695e35fe9375ed813e9267c48b6e6e0ed2c5303c0a4eb46842040dcb8370ac1e?apiKey=052aa92796d54d509e3efd8cbd8b7989&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/695e35fe9375ed813e9267c48b6e6e0ed2c5303c0a4eb46842040dcb8370ac1e?apiKey=052aa92796d54d509e3efd8cbd8b7989&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/695e35fe9375ed813e9267c48b6e6e0ed2c5303c0a4eb46842040dcb8370ac1e?apiKey=052aa92796d54d509e3efd8cbd8b7989&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/695e35fe9375ed813e9267c48b6e6e0ed2c5303c0a4eb46842040dcb8370ac1e?apiKey=052aa92796d54d509e3efd8cbd8b7989&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/695e35fe9375ed813e9267c48b6e6e0ed2c5303c0a4eb46842040dcb8370ac1e?apiKey=052aa92796d54d509e3efd8cbd8b7989&"
+                    className="aspect-[0.96] object-contain object-center w-full overflow-hidden grow max-md:max-w-full max-md:mt-10"
+                  />
+                </picture>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div className="items-stretch bg-white flex w-full flex-col justify-center px-16 py-12 max-md:max-w-full max-md:px-5">
+          <div className="mt-16 mb-10 max-md:max-w-full max-md:mr-1 max-md:mt-10">
+            <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
+              <div className="flex flex-col items-stretch w-6/12 max-md:w-full max-md:ml-0">
+                <div className="items-start flex flex-col my-auto max-md:max-w-full max-md:mt-10">
+                  <div className="self-stretch text-black text-5xl font-bold leading-[58px] mt-4 max-md:max-w-full max-md:text-4xl max-md:leading-[54px]">
+                    What about floor insulation?
+                  </div>
+                  <div className="self-stretch text-black text-lg leading-7 mt-6 max-md:max-w-full">
+                    About 35% of the heat will escape through the walls and
+                    through gaps, in and around windows and doors, and about 10%
+                    of heat will disappear through the floor.
+                    <p className="mt-4">
+                      If your property was built in 1995 or after then you will
+                      have efficient floor insulation.
+                    </p>
+                    <p className="mt-4">
+                      Properties built prior to 1995 for peace of mind we can
+                      lay gypsum fibre screed boards 10mm or 12.5mm for
+                      effective thermal insulation.
+                    </p>
+                  </div>
+                  {/* <div className="self-stretch mt-8 py-2 max-md:max-w-full">
+                    <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
+                      <div className="flex flex-col items-stretch w-6/12 max-md:w-full max-md:ml-0">
+                        <div className="items-stretch flex flex-col max-md:mt-8">
+                          <div className="text-black text-xl font-bold leading-7">
+                            Comfortable & Efficient
+                          </div>
+                          <div className="text-black text-base leading-6 mt-4">
+                            Experience the ultimate comfort and energy
+                            efficiency with our underfloor heating system.
+                          </div>
+                        </div>
+                      </div>
+                      <div className="flex flex-col items-stretch w-6/12 ml-5 max-md:w-full max-md:ml-0">
+                        <div className="items-stretch flex flex-col max-md:mt-8">
+                          <div className="text-black text-xl font-bold leading-7">
+                            Cost-effective Solution
+                          </div>
+                          <div className="text-black text-base leading-6 mt-4">
+                            Save on energy bills and enjoy the benefits of
+                            underfloor heating in your home.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div> */}
+                  <div className="text-black text-base leading-6 whitespace-nowrap justify-center items-stretch border mt-10 px-6 py-3 border-solid border-black self-start max-md:px-5">
+                    Learn More
                   </div>
                 </div>
               </div>

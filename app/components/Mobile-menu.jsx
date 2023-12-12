@@ -4,7 +4,7 @@ import { Dialog, Transition } from "@headlessui/react";
 import { XMarkIcon } from "@heroicons/react/24/outline";
 
 export default function MobileMenu() {
-  const [open, setOpen] = useState(true);
+  const [open, setOpen] = useState(false);
   return (
     <div>
       <div>
@@ -56,7 +56,7 @@ export default function MobileMenu() {
                         >
                           <span className="absolute -inset-2.5" />
                           <span className="sr-only">Close panel</span>
-                          <XMarkIcon className="h-6 w-6" aria-hidden="true" />
+                          <XMarkIcon className="h-8 w-8" aria-hidden="true" />
                         </button>
                       </div>
                     </Transition.Child>
