@@ -2,7 +2,7 @@
 import { Fragment, useState } from "react";
 import { Dialog, Transition } from "@headlessui/react";
 import { XMarkIcon } from "@heroicons/react/24/outline";
-
+import Link from "next/link";
 export default function MobileMenu() {
   const [open, setOpen] = useState(false);
   return (
@@ -66,9 +66,18 @@ export default function MobileMenu() {
                       </div>
                       <div className="relative mt-6 flex-1 px-4 sm:px-6">
                         <div>
-                          <button className="text-2xl font-semibold py-3">
-                            Installation
-                          </button>
+                          <Link href="/">
+                            <button className="text-2xl font-semibold py-3">
+                              Home
+                            </button>
+                          </Link>
+                        </div>
+                        <div>
+                          <Link href="installation">
+                            <button className="text-2xl font-semibold py-3">
+                              Installation
+                            </button>
+                          </Link>
                         </div>
                         <div>
                           <button className="text-2xl text-gray-300 font-semibold py-3">
