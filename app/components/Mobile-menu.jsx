@@ -87,9 +87,11 @@ export default function MobileMenu() {
                           </Link>
                         </div>
                         <div>
-                          <button className="text-2xl text-gray-300 font-semibold py-3">
-                            About Us
-                          </button>
+                          <Link href="About">
+                            <button className="text-2xl  font-semibold py-3">
+                              About Us
+                            </button>
+                          </Link>
                         </div>
                         <div>
                           <button className="text-2xl text-gray-300 font-semibold py-3">
