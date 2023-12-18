@@ -22,7 +22,7 @@ export default function BenefitsPage() {
                 <div className="text-black text-lg leading-7 mt-6 max-md:max-w-full">
                   Our underfloor heating system serves as the primary heat
                   source, providing the most comfortable and uniform level of
-                  warmth. With our system, you won't need any other heating
+                  warmth. With our system, you won&apos;t need any other heating
                   systems.
                 </div>
                 <div className="mt-8 py-2 max-md:max-w-full">
@@ -180,13 +180,12 @@ export default function BenefitsPage() {
               <div className="flex flex-col items-stretch w-6/12 max-md:w-full max-md:ml-0">
                 <div className="items-stretch flex flex-col my-auto max-md:max-w-full max-md:mt-10">
                   <div className="text-black text-4xl font-bold leading-10 max-md:max-w-full">
-                    The Zero Build-Up Advantage: Embedded 'Into' the Screed
-                    Floor
+                    The Zero Build-Up Advantage: Embedded Into the Screed Floor
                   </div>
                   <div className="text-black text-lg leading-7 mt-6 max-md:max-w-full">
                     Our underfloor heating system offers the unique benefit of
-                    being embedded 'into' the screed floor without any increase
-                    in floor level. This means you can enjoy the comfort of
+                    being embedded into the screed floor without any increase in
+                    floor level. This means you can enjoy the comfort of
                     underfloor heating without compromising on space or
                     aesthetics.
                   </div>
